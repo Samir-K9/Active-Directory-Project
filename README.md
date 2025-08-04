@@ -21,3 +21,14 @@
 ### Step 3: Enable VPC Network.
 - **Enable VPC for all three VMs, assigning them private IP addresses within the 10.22.96.x range.**
 
+### Step 4: Active Directory Configuration
+- **Install Active Directory Domain Services on SAMIR_ADDC01 with domain name samir.local.**
+- **Create a new user: Jenny Smith with login name JSmith.**
+![Image Alt](https://github.com/Samir-K9/Active-Directory-Project/blob/cbafe7f0777afafbfb6d06b84c8e5653ab55c2f9/Screenshots/Screenshot%202025-08-04%20125426.png)
+
+### Step 5: Join the domain from Cloud Instance.
+- **In Cloud Instance, set the DNS server to the IP address of SAMIR-ADDC01 and join the domain samir.local.**
+- **Login using the credentials of Jenny Smith to make sure everything is working properly.**
+
+
+
