@@ -37,6 +37,9 @@
 
 - **Login to Splunk web interface and install Splunk Add-on for Microsoft Windows, create a new index called samir-ad and configure receiving on port 9997.**
 
+### Step 7: Install Splunk Universal Forwarder.
+- **Install Splunk Universal Forwarder on Cloud Instance. 
+
 
 
 
