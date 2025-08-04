@@ -31,8 +31,10 @@
 - **Login using the credentials of Jenny Smith to make sure everything is working properly.**
 
 ### Step 6: Install Splunk on SAMIR-Splunk
-- **Download and install splunk on SAMIR-Splunk and make firewall rule changes to allow port access on 8000 to access Splunk web interface.**
+- **Download and install splunk on SAMIR-Splunk. Make firewall rule changes to allow port access on 8000 to access Splunk web interface.**
+
 ![Image Alt](https://github.com/Samir-K9/Active-Directory-Project/blob/cdecf106246bc3b4467d32138a2b6a078f1444ba/Screenshots/Screenshot%202025-08-04%20160558.png)
+
 - **Login to Splunk web interface and install Splunk Add-on for Microsoft Windows, create a new index called samir-ad and configure receiving on port 9997.**
 
 
