@@ -13,3 +13,11 @@
 - **SAMIR-SPLUNK: Ubuntu 22.04 server with 4 vCPUs, 8GB RAM, and 160GB disk space.**
 ![Image Alt](https://github.com/Samir-K9/Active-Directory-Project/blob/c9d4ea312d73e33c5bddcc8ea441df0e99a21c44/Screenshots/Screenshot%202025-08-03%20131251.png)
 
+### Step 2: Configure firewall settings.
+- **Create a firewall group from under Network option in VULTR and restrict access to only SSH (port 22) and MS RDP (3389) from your public address.**
+![Image Alt](https://github.com/Samir-K9/Active-Directory-Project/blob/cbafe7f0777afafbfb6d06b84c8e5653ab55c2f9/Screenshots/Screenshot%202025-08-03%20132413.png)
+- **Add the created firewall rules to all the VMs.**
+
+### Step 3: Enable VPC Network.
+- **Enable VPC for all three VMs, assigning them private IP addresses within the 10.22.96.x range.**
+
