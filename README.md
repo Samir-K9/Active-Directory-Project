@@ -48,6 +48,12 @@ disabled = false
  ```
 ufc allow 9997
  ```
+### Step 8: Create alert for Unauthorized Successful RDP logins.
+- **Create a query to identify unauthorized successful RDP login. The query used:**
+ ```
+index="samir-ad" EventCode=4624 (Logon_Type=7 OR Logon_Type=10) Source_Network_Address=* Source_Network_Address!=*-* Source_Network_Address!=40.* |stats count by _time,ComputerName,Source_Network_Address,user,Logon_Type
+ ```
+-**Save and configure the scheduled alert to trigger if unauthorized RDP logins are detected.**
 
 
 
