@@ -38,7 +38,21 @@
 - **Login to Splunk web interface and install Splunk Add-on for Microsoft Windows, create a new index called samir-ad and configure receiving on port 9997.**
 
 ### Step 7: Install Splunk Universal Forwarder.
-- **Install Splunk Universal Forwarder on Cloud Instance. 
+- **Install Splunk Universal Forwarder on Cloud Instance and SAMIR-ADDC01 and copy the inputs.conf file from C:\Program Files\SplunkUniversalForwarder\etc\system\default to C:\Program Files\SplunkUniversalForwarder\etc\system\local. Add the following in the inputs.conf file by opening the file using Notepad as administrator:**
+ ```
+[WinEventLog://Security]
+index = samir-ad
+disabled = false
+```
+- **Add the firewall rule in SAMIR-Splunk to view the events in Splunk. Use the command:**
+ ```
+ufc allow 9997
+ ```
+
+
+
+
+
 
 
 
