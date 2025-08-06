@@ -55,6 +55,20 @@ index="samir-ad" EventCode=4624 (Logon_Type=7 OR Logon_Type=10) Source_Network_A
  ```
 -**Save and configure the scheduled alert to trigger if unauthorized RDP logins are detected.**
 
+### Step 9: Shuffle Setup
+- **Create an account on Shuffle and create a new workflow Samir-AD-Project.**
+- **Create a Webhook which will show Splunk alerts in the workflow.**
+
+### Step 10: Slack and Email Integration
+- **Create a slack workspace and create a new channel called alerts where the alerts will be sent in from Shuffle to notify the SOC Analyst.**
+- **In the workflow, add a "User Input" node to send an email notification to SOC analyst's email address.**
+
+### Step 11: Integrate Active Directory to disable user.
+- **Integrate Active Directory in Shuffle such that if the SOC Anlyst wants to disable the user it can be automated.**
+- **The workflow looks like this:**
+  
+
+
 
 
 
