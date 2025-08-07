@@ -12,7 +12,7 @@ The primary objective of this project was to create a fully functional Active Di
 - **Slack**
 
 ## Workflow Overview
-![Image Alt](https://github.com/Samir-K9/Active-Directory-Project/blob/7356da9f2f730d95b6acf5fc67780fd1bb7adf5c/Screenshots/Screenshot%202025-08-01%20191510.png)
+![Image Alt](https://github.com/Samir-K9/Active-Directory-Project/blob/d0a1238583eff48f191ae778039d59ba39b80ae5/Screenshots/Screenshot%202025-08-06%20182552.png)
 
 - **Telemetry Generation: An attacker machine successfully authenticates to the test machine which will then generate a telemetry to Splunk.**
 - **Alert Generation: Splunk will then send a notification to Slack and also trigger a playbook on Shuffle.**
