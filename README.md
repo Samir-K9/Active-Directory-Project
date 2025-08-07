@@ -1,3 +1,16 @@
+# Active-Directory-Project
+
+## Objective
+The primary objective of this project was to create a fully functional Active Directory environment in the VULTR cloud platform, implement Splunk for security monitoring and alerting to detect unauthorized logings and integrate Shuffle as a SOAR platform to automate incident response workflows. 
+
+## Tools and Platforms
+- **VULTR cloud platform**
+- **Windows Server 2022**
+- **Ubuntu 22.04**
+- **Splunk Enterprise**
+- **Shuffle**
+- **Slack**
+
 ## Workflow Overview
 ![Image Alt](https://github.com/Samir-K9/Active-Directory-Project/blob/7356da9f2f730d95b6acf5fc67780fd1bb7adf5c/Screenshots/Screenshot%202025-08-01%20191510.png)
 
@@ -66,9 +79,13 @@ index="samir-ad" EventCode=4624 (Logon_Type=7 OR Logon_Type=10) Source_Network_A
 ### Step 11: Integrate Active Directory to disable user.
 - **Integrate Active Directory in Shuffle such that if the SOC Anlyst wants to disable the user it can be automated.**
 - **The workflow looks like this:**
-  
+  ![Image Alt](https://github.com/Samir-K9/Active-Directory-Project/blob/73fce775107ac40a016edc3420bd42d92268cff5/Screenshots/Screenshot%202025-08-06%20174734.png)
 
+### Conclusion
+This project has significantly helped me to enhance my practical skills in deploying, securing and automating enterprise-level architecture. Hands-on experience with network design, Active Directory configuration, threat detection using Splunk, and incident response automation with Shuffle have helped me develop a well rounded skill in security operations and take on real-world challenges as a SOC Analyst.
 
+### References
+- https://www.youtube.com/@MyDFIR
 
 
 
